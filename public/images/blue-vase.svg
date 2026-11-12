@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360" fill="none">
+  <defs>
+    <radialGradient id="vaseShadow" cx="50%" cy="88%" r="36%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cobalt" x1="0.2" y1="0" x2="0.9" y2="1">
+      <stop offset="0%" stop-color="#6086D9"/>
+      <stop offset="48%" stop-color="#3C5EB8"/>
+      <stop offset="100%" stop-color="#223B82"/>
+    </linearGradient>
+    <linearGradient id="rimGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#28428D"/>
+      <stop offset="50%" stop-color="#4E73CA"/>
+      <stop offset="100%" stop-color="#223878"/>
+    </linearGradient>
+  </defs>
+
+  <ellipse cx="180" cy="306" rx="68" ry="14" fill="url(#vaseShadow)"/>
+
+  <!-- Ceramic Vase Body -->
+  <path d="M148 76 H212 L206 118 C206 132 246 154 246 218 C246 266 222 298 180 298 C138 298 114 266 114 218 C114 154 154 132 154 118 Z" fill="url(#cobalt)"/>
+
+  <!-- Soft Specular Highlight -->
+  <path d="M150 144 C132 170 128 214 142 260" stroke="#A5C0FA" stroke-width="10" stroke-linecap="round" opacity="0.35"/>
+
+  <!-- Vase Rim -->
+  <ellipse cx="180" cy="76" rx="34" ry="8" fill="url(#rimGrad)"/>
+  <ellipse cx="180" cy="76" rx="24" ry="4.5" fill="#182A5C"/>
+</svg>

@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360" fill="none">
+  <defs>
+    <radialGradient id="bgShade" cx="50%" cy="85%" r="35%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="wrapBlue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#D7E6F7"/>
+      <stop offset="100%" stop-color="#B0CCE8"/>
+    </linearGradient>
+    <linearGradient id="wrapDark" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9BBCE0"/>
+      <stop offset="100%" stop-color="#7EA6D4"/>
+    </linearGradient>
+    <linearGradient id="leafGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4FA866"/>
+      <stop offset="100%" stop-color="#2D7541"/>
+    </linearGradient>
+    <radialGradient id="hydrangea" cx="40%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#9CB8FF"/>
+      <stop offset="65%" stop-color="#6B83EB"/>
+      <stop offset="100%" stop-color="#4A5CC7"/>
+    </radialGradient>
+    <radialGradient id="hydrangeaSoft" cx="40%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#C7D7FF"/>
+      <stop offset="70%" stop-color="#8AA4F5"/>
+      <stop offset="100%" stop-color="#6378D6"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Studio Floor Shadow -->
+  <ellipse cx="180" cy="318" rx="70" ry="14" fill="url(#bgShade)"/>
+
+  <!-- Foliage Leaves -->
+  <path d="M120 185 C82 155, 62 120, 74 96 C100 105, 130 138, 145 178 Z" fill="url(#leafGrad)"/>
+  <path d="M240 185 C278 155, 298 120, 286 96 C260 105, 230 138, 215 178 Z" fill="url(#leafGrad)"/>
+  <path d="M165 160 C145 100, 155 62, 180 50 C205 62, 215 100, 195 160 Z" fill="#3D8E52"/>
+
+  <!-- White Tulips -->
+  <g>
+    <path d="M122 128 C110 96, 128 72, 144 74 C156 88, 154 114, 138 134 Z" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5"/>
+    <path d="M134 128 C128 98, 144 74, 154 84 C162 102, 154 122, 140 134 Z" fill="#F8FAFC" stroke="#E5E7EB" stroke-width="1.2"/>
+    <path d="M238 128 C250 96, 232 72, 216 74 C204 88, 206 114, 222 134 Z" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5"/>
+    <path d="M180 112 C164 78, 174 52, 188 52 C202 52, 210 78, 192 112 Z" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5"/>
+  </g>
+
+  <!-- Blue Hydrangea Clusters -->
+  <g>
+    <circle cx="132" cy="145" r="34" fill="url(#hydrangea)"/>
+    <circle cx="228" cy="145" r="34" fill="url(#hydrangea)"/>
+    <circle cx="180" cy="118" r="38" fill="url(#hydrangeaSoft)"/>
+    <circle cx="155" cy="166" r="30" fill="url(#hydrangeaSoft)"/>
+    <circle cx="205" cy="166" r="30" fill="url(#hydrangea)"/>
+
+    <!-- Petals texture -->
+    <g fill="#E2EAFF" opacity="0.85">
+      <circle cx="168" cy="105" r="7"/><circle cx="185" cy="96" r="6"/>
+      <circle cx="195" cy="112" r="7"/><circle cx="174" cy="122" r="7"/>
+      <circle cx="122" cy="136" r="6"/><circle cx="138" cy="148" r="7"/>
+      <circle cx="224" cy="136" r="6"/><circle cx="238" cy="150" r="7"/>
+      <circle cx="152" cy="162" r="6"/><circle cx="204" cy="160" r="6"/>
+    </g>
+    <!-- White Accent Blooms -->
+    <g fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1">
+      <circle cx="180" cy="144" r="10"/>
+      <circle cx="144" cy="126" r="8"/>
+      <circle cx="216" cy="126" r="8"/>
+      <circle cx="180" cy="86" r="8"/>
+    </g>
+  </g>
+
+  <!-- Wrapping Paper Cone -->
+  <path d="M84 166 L180 310 L276 166 Q230 194 180 190 Q130 194 84 166 Z" fill="url(#wrapBlue)"/>
+  <path d="M108 176 L180 310 L252 176 Q216 202 180 196 Q144 202 108 176 Z" fill="url(#wrapDark)" opacity="0.55"/>
+  <path d="M138 225 L180 310 L222 225 Q180 238 138 225 Z" fill="#9BBCE0"/>
+
+  <!-- Gingham Blue & White Ribbon Bow -->
+  <rect x="148" y="232" width="64" height="14" rx="5" fill="#5D7EE2"/>
+  <path d="M180 239 L136 220 C128 232 132 252 146 254 Z" fill="#6F8EEB"/>
+  <path d="M180 239 L224 220 C232 232 228 252 214 254 Z" fill="#6F8EEB"/>
+  <path d="M174 244 L152 292 L166 296 L180 248 Z" fill="#5D7EE2"/>
+  <path d="M186 244 L208 292 L194 296 L180 248 Z" fill="#4A6BD6"/>
+  <rect x="171" y="230" width="18" height="18" rx="6" fill="#4362C9"/>
+</svg>
